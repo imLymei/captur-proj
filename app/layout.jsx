@@ -1,8 +1,13 @@
-import './globals.css'
+import './globals.css';
+import {Raleway} from '@next/font/google';
+
+const raleway = Raleway({
+  variable: '--font-raleway'
+})
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={raleway.variable}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
