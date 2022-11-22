@@ -1,5 +1,6 @@
 import './globals.css';
 import {Raleway} from '@next/font/google';
+import Navbar from './Navbar';
 
 const raleway = Raleway({
   variable: '--font-raleway'
@@ -13,7 +14,10 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
