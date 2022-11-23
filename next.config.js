@@ -7,7 +7,7 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["images.unsplash.com"]
+    domains: ["images.unsplash.com", "instagram.fssz10-1.fna.fbcdn.net"]
   }, experimental: {
     appDir: true,
   },
