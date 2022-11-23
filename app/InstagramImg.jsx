@@ -2,15 +2,19 @@ import React from 'react'
 import Image from 'next/image'
 import {FaInstagram} from 'react-icons/fa'
 
-function InstagramImg(socialImg) {
+function Teste({UrlLink}) {
+
   return (
-    <div className='relative'>
-      <Image src={socialImg} height={780} width={780} alt="/" className='w-full h-full' layout='responsive' />
-      {/* Overlay */}
-      <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 hover:bg-black/50 group' />
-      <p className='text-gray-300 hidden group-hover:block'><FaInstagram size={30} /></p>
+    <div>
+        <div className='relative w-[175px] h-[175px]'>
+            <Image src={UrlLink} fill={true} alt="/" className='object-cover' />
+            {/* Overlay */}
+            <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 hover:bg-black/50 group'>
+                <p className='text-gray-300 hidden group-hover:block'><FaInstagram size={30} className='z-10' /></p>
+            </div>
+        </div>
     </div>
   )
 }
 
-export default InstagramImg
+export default Teste
