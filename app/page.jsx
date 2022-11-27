@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Hero heading='Captur Photography' message='I capture moments in the city and keep them alive.' />
-      <Slider slides={SliderData} />
+      <Slider id="gallery" slides={SliderData} />
       <Instagram />
     </div>
   )
