@@ -16,4 +16,4 @@ A Next.js 13 project with /APP directory
 >Home page gallery photo slide
 
 ## How to run
-Just click in the link of the repository or [here](https://captur-one.vercel.app)!
+Just click in the website of the repository or [here](https://captur-one.vercel.app)!
