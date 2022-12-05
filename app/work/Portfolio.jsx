@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Portfolio() {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 text-center'>
+    <div className='max-w-[1240px] mx-auto py-16 text-center h-[90vh]'>
         <h1 className=' text-2xl font-bold pb-7'>City Photos</h1>
         <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
             <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
