@@ -12,7 +12,7 @@ const img6 = 'https://cdn.discordapp.com/attachments/457992163670753301/10491069
 
 function Instagram() {
   return (
-    <div className='max-w-[1240px] mx-auto text-center py-24'>
+    <div className='max-w-[1240px] mx-auto text-center py-24 max-sm:h-[90vh]'>
         <p className='text-2xl font-bold'>Follow me on Instagram</p>
         <p className='pb-4'>@Jezar.mx</p>
         <div className='grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
