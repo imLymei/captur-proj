@@ -3,7 +3,7 @@ A Next.js 13 project with /APP directory
 
 ## Frameworks
 - [Next.js](https://nextjs.org)
-- [Node.js]
+- [Node.js](https://nodejs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 
 ## Images
