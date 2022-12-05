@@ -8,9 +8,10 @@ A Next.js 13 project with /APP directory
 
 ## Images
 <img src="/public/print1.png" alt="Website home page">
+
 >Home page
 
-<img src="/public/print1.png" alt="Website home gallery slider">
+<img src="/public/print2.png" alt="Website home gallery slider">
 
 >Home page gallery photo slide
 
