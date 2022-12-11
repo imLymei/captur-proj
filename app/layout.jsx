@@ -1,23 +1,23 @@
 import './globals.css';
-import {Raleway} from '@next/font/google';
+import { Raleway } from '@next/font/google';
 import Navbar from './Navbar';
 
 const raleway = Raleway({
-  variable: '--font-raleway'
-})
+	variable: '--font-raleway',
+});
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en" className={raleway.variable}>
-      {/*
+	return (
+		<html lang='en' className={raleway.variable}>
+			{/*
         <head /> will contain the components returned by the nearest parent
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
-      <body>
-        <Navbar />
-        {children}
-      </body>
-    </html>
-  )
+			<head />
+			<body>
+				<Navbar />
+				{children}
+			</body>
+		</html>
+	);
 }
