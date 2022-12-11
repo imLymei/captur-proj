@@ -23,6 +23,21 @@ A Next.js 13 project with /APP directory and Tailwind CSS.
 
 >Home page gallery photo slide
 
-## 🚀 How to run
+## 🚀 How to use it?
 
 Just click in the website of the repository or [here](https://captur-one.vercel.app)!
+
+##### or
+
+### Install node modules in the project
+
+```
+npm install
+```
+
+### Start the local server
+```
+npm run dev
+```
+##### [Back to the top](https://github.com/imLymei/captur-proj#captur-portfolio)
+###### Create by [Felipe Cardoso](https://lymei.art)
