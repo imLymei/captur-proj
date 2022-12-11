@@ -3,28 +3,29 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .custom-img {
-    background-image: url("../public/second.jpg");
+	background-image: url('../public/second.jpg');
+	background-position: top 0px left -400px;
 }
 
 @media (min-width: 640px) {
-    .custom-img {
-        background-position: top -200px left 0px;
-    }    
+	.custom-img {
+		background-position: top -200px left 0px;
+	}
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+	width: 12px;
 }
 ::-webkit-scrollbar-track {
-    background: transparent;
+	background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: #666;
+	background: #666;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+	background: #555;
 }
