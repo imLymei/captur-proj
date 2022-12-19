@@ -5,6 +5,15 @@
 html {
 	scroll-behavior: smooth;
 }
+@media (min-width: 640px) {
+	html {
+		overflow: overlay;
+	}
+}
+
+html {
+	overflow-x: hidden;
+}
 
 .custom-img {
 	background-image: url('../public/second.jpg');
@@ -18,14 +27,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-	width: 12px;
+	width: 10px;
 }
 ::-webkit-scrollbar-track {
 	background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-	background: #666;
+	background: #222;
+	border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #555;
+	background: #333;
 }

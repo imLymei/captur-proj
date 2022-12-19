@@ -1,11 +1,12 @@
 # Captur Portfolio
+
 A Next.js 13 project with /APP directory and Tailwind CSS.
 
 ### Features
 
 - [x] 📱 Mobile responsive
-- [x] 🏍 Dinamic url pages
-- [x] ⛷ Dinamic styles
+- [x] 🏍 Dynamic url pages
+- [x] ⛷ Dynamic styles
 
 ## 💻 Frameworks
 
@@ -15,13 +16,13 @@ A Next.js 13 project with /APP directory and Tailwind CSS.
 
 ## 🖼️ Images
 
-<img src="/public/print1.png" alt="Website home page">
+<img src="./public/print1.png" alt="Website home page">
 
->Home page image and navigation bar
+> Home page image and navigation bar
 
-<img src="/public/print2.png" alt="Website home gallery slider">
+<img src="./public/print2.png" alt="Website home gallery slider">
 
->Home page gallery photo slide
+> Home page gallery photo slide
 
 ## 🚀 How to use it?
 
@@ -36,8 +37,11 @@ npm install
 ```
 
 ### Start the local server
+
 ```
 npm run dev
 ```
+
 ##### [Back to the top](https://github.com/imLymei/captur-proj#captur-portfolio)
+
 ###### Create by [Felipe Cardoso](https://lymei.art)
